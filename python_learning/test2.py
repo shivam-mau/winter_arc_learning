@@ -1,7 +1,9 @@
-Given two strings denoting non-negative numbers s1 and s2. Calculate the sum of s1 and s2.
+'''Given two strings denoting non-negative numbers s1 and s2. Calculate the 
+sum of s1 and s2.
 
 For example if s1 = "121" and s2 = "99", the result will be "220".  
-Note: The numbers can be very large (up to 10^6 digits), hence converting them to integer and adding may not work.
+Note: The numbers can be very large (up to 10^6 digits), hence converting them to integer 
+adding may not work.'''
 def findSum(s1, s2):
     #code here
     if len(s1) > len(s2):
